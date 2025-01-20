@@ -1,0 +1,93 @@
+/* Responsive Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        margin: 0;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    /* Adjust container padding */
+    .container {
+        padding: 0 10px;
+    }
+
+    /* Header adjustments */
+    .header-top .container {
+        grid-template-columns: 1fr 2fr 1fr; /* Adjust column sizes for better spacing */
+        gap: 20px; /* Reduce gaps */
+    }
+
+    .search-bar form {
+        max-width: 100%; /* Allow search bar to fit within available space */
+    }
+
+    .user-actions {
+        flex-wrap: wrap; /* Wrap items if necessary */
+        justify-content: center; /* Center align actions */
+        gap: 10px;
+    }
+
+    /* Navigation adjustments */
+    .nav-categories {
+        flex-wrap: wrap; /* Wrap navigation links */
+        justify-content: space-around; /* Evenly distribute links */
+    }
+
+    .nav-categories a {
+        padding: 5px 5px; /* Reduce padding for better spacing */
+    }
+
+    /* Hero section adjustments */
+    .hero-slider .slide img {
+        height: auto; /* Maintain aspect ratio for hero images */
+    }
+
+    .category-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        justify-items: center;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    .category-item img {
+        width: 100%;
+        max-width: 120px;
+        border-radius: 50%;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    /* Product grid adjustments */
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ensure products fit nicely */
+        gap: 20px; /* Reduce gaps between products */
+    }
+
+    .product-card {
+        padding: 10px; /* Reduce padding to save space */
+    }
+
+    /* Footer adjustments */
+    .footer-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Fit more items per row */
+        gap: 20px;
+    }
+
+    .footer-section h3 {
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+
+    .newsletter-form {
+        flex-direction: column; /* Stack input and button vertically */
+        gap: 10px;
+    }
+
+    .newsletter-form input, 
+    .newsletter-form button {
+        width: 100%; /* Ensure they span full width */
+    }
+}

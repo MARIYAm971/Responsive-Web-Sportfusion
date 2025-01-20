@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportFusion</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/LOGO.png" alt="Sports Store Logo">
+                    </a>
+                </div>
+                <div class="search-bar">
+                    <form action="/search" method="GET">
+                        <input type="text" placeholder="Search for products...">
+                        <button type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="user-actions">
+                    <a href="accounts.html" class="account-link">
+                        <i class="fas fa-user"></i>
+                        <span>Account</span>
+                    </a>
+                    <a href="/cart" class="cart-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Cart (0)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-categories">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="game.html">Game</a></li>
+                    <li><a href="Apparel & Footwear.html">Apparel & Footwear</a></li>
+                    <li><a href="fitness.html">Fitness</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="slide">
+                    <img src="images/50Off.png" alt="Sports Equipment Sale">
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Categories -->
+        <section class="featured-categories">
+            <div class="container">
+                <h2>Shop By Category</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <img src="images/Treadmills_n.webp" alt="Treadmills">
+                        <h3>Treadmills</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Exercise_Bike_n.webp" alt="Exercise Bike & Ellipticals">
+                        <h3>Exercise Bike & Ellipticals</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Outdoor_sports.webp" alt="Outdoor Sport">
+                        <h3>Outdoor Sport</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Rowing_machines_n.webp" alt="Rowing Machines">
+                        <h3>Rowing Machines</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Home_Multi_Gym_n.webp" alt="Home & Multi Gym">
+                        <h3>Home & Multi Gym</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Benches_n.webp" alt="Benches">
+                        <h3>Benches</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Weights_n.webp" alt="Weights">
+                        <h3>Weights</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Boxing_n.webp" alt="Boxing">
+                        <h3>Boxing</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Bicycle_n.webp" alt="Bicycle">
+                        <h3>Bicycle</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Racket_Sports_n.webp" alt="Racket Sports">
+                        <h3>Racket Sports</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Games_n.webp" alt="Games">
+                        <h3>Games</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="images/Trophies_n.webp" alt="Trophies">
+                        <h3>Trophies</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hot Sale Section -->
+        <section class="sales-products">
+            <div class="container">
+                <h2>Hot Sale</h2>
+                <div class="product-grid">
+                    <a href="/product/basketball-stand" class="product-card">
+                        <img src="images/basketball stand.png" alt="BasketBall Stand">
+                        <div class="product-info">
+                            <h3>BasketBall Stand</h3>
+                            <p class="price"><span class="discount">-53%</span> AED 2,911.00  <del>AED 6,227.00</del></p>
+                        </div>
+                    </a>
+                    <a href="/product/tabletennis" class="product-card">
+                        <img src="images/tabletennis.jpg" alt="TableTennis">
+                        <div class="product-info">
+                            <h3>TableTennis</h3>
+                            <p class="price"><span class="discount">-57%</span> AED 1,482.00 <del>AED 3,454.00</del></p>
+                        </div>
+                    </a>
+                    <a href="/product/kettleball" class="product-card">
+                        <img src="images/kettleball.png" alt="Kettle Ball">
+                        <div class="product-info">
+                            <h3>Kettle Ball</h3>
+                            <p class="price"><span class="discount">-57%</span> AED 68.99 <del>AED 158.99</del></p>
+                        </div>
+                    </a>
+                    <a href="/product/elliptical-bike" class="product-card">
+                        <img src="images/Bike.png" alt="Elliptical Bike">
+                        <div class="product-info">
+                            <h3>Elliptical Bike</h3>
+                            <p class="price"><span class="discount">-15%</span> AED 2,901.05 <del>AED 3,413.00</del></p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+        <!-- New Arrival Section -->
+        <section class="new-arrivals">
+            <div class="container">
+                <h2>New Arrivals</h2>
+                <div class="product-grid">
+                    <a href="/product/cushion-running-shoes-black-white" class="product-card">
+                        <img src="images/shoe1.jpg" alt="Shoe">
+                        <div class="product-info">
+                            <h3>CUSHION RUNNING SHOES BLACK/WHITE</h3>
+                            <p class="description">The PEAK Cushion Running Shoes in black and white offer premium comfort, durability, and performance.</p>
+                            <p class="price">AED 194.00</p>
+                        </div>
+                    </a>
+                    <a href="/product/bicycle-mach-city" class="product-card">
+                        <img src="images/cycle.webp" alt="Bicycle">
+                        <div class="product-info">
+                            <h3>BICYCLE MACH CITY I BIKE 700C BLACK-SINGLE SPEED</h3>
+                            <p class="description">Its lightweight steel frame and durable nylon tyres help you weave in and out of traffic with ease and confidence. </p>
+                            <p class="price">AED 1,048.00</p>
+                        </div>
+                    </a>
+                    <a href="/product/sport-weight-plate" class="product-card">
+                        <img src="images/weightplate.jpg" alt="weight plate">
+                        <div class="product-info">
+                            <h3>SPORT WEIGHT PLATE CPU COATED SS RING</h3>
+                            <p class="description">Enhance your fitness routine with the TA Sport Weight Plate designed for serious lifters and gym enthusiasts in the UAE.</p>
+                            <p class="price">AED 1,221.00</p>
+                        </div>
+                    </a>
+                    <a href="/product/cushion-running-shoes-black" class="product-card">
+                        <img src="images/shoe2.jpg" alt="Shoe">
+                        <div class="product-info">
+                            <h3>CUSHION RUNNING SHOES BLACK</h3>
+                            <p class="description">Experience ultimate comfort and support with the Peak Cushion Running Shoes in black. Crafted with advanced cushioning,</p>
+                            <p class="price">AED 225.99</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/shipping">Shipping Information</a></li>
+                        <li><a href="/returns">Returns & Exchanges</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="/about">Our Story</a></li>
+                        <li><a href="/stores">Store Locations</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sports Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

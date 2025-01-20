@@ -1,0 +1,77 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Container adjustments */
+    .container {
+        padding: 0 10px;
+    }
+
+    /* Header */
+    .header-top .container {
+        grid-template-columns: 150px 1fr 150px;
+        gap: 20px;
+    }
+
+    .logo img {
+        max-width: 120px;
+    }
+
+    .search-bar form {
+        max-width: 100%;
+    }
+
+    .search-bar input {
+        font-size: 14px;
+    }
+
+    .user-actions a {
+        gap: 5px;
+        font-size: 13px;
+    }
+
+    /* Navigation */
+    .nav-categories {
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    /* Product Grid */
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .product-card h3 {
+        font-size: 14px;
+    }
+
+    .product-card .price {
+        font-size: 14px;
+    }
+
+    .product-card .discount {
+        font-size: 10px;
+    }
+
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .footer-section h3 {
+        font-size: 16px;
+    }
+
+    .footer-section ul li {
+        font-size: 14px;
+    }
+
+    .newsletter-form input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .newsletter-form button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
